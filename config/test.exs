@@ -16,4 +16,4 @@ config :discuss, Discuss.Repo,
   password: "postgres",
   database: "discuss_test",
   hostname: "localhost",
-  pool_size: 10
+  pool: Ecto.Adapters.SQL.Sandbox
